@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    /* FONTES */
+    --title: "Boldonse", system-ui;
+    --body: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: #e7e4d9;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input , button{
+    width: 100%;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: var(--body);
+    font-weight: 700;
+}
+
+.btn{
+    background-color: #31353d;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    background-color: #000000;
+}
+
+input{
+    height: 2rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.container .mt-4{
+    background-color: #ffffff;
+    padding: 10px;
+    justify-content: center;
+    padding-top: 15px;
+    border-radius: 10px;
+}

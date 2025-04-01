@@ -13,7 +13,7 @@
             <form action="salvar.php" method="post">
                 Nome: <input type="text" name="nome" required> <br><br>
                 Idade: <input type="number" name="idade" required> <br><br>
-                <button type="submit">Salvar</button>
+                <button type="submit" class="btn btn-secondary">Enviar</button>
             </form>
     </div>
 
